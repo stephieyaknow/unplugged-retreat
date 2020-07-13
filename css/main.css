@@ -121,13 +121,17 @@ p {
 
 }
 
-/* ----- HEADER & FOOTER ----- */
+/* ----- BASE HEADER & FOOTER STYLES ----- */
 
 header, footer {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+}
+
+header {
+     width: 60%;
 }
 
 header .content-wrapper {
@@ -148,17 +152,6 @@ header nav ul {
      display: flex;
      justify-content: space-around;
      align-items: center;
-}
-
-header nav ul li {
-
-}
-
-.footer-content {
-}
-
-.contact {
-
 }
 
 footer .social {
@@ -192,10 +185,6 @@ aside {
      flex-flow: row wrap;
 }
 
-form {
-
-}
-
 /* ----- FEATURES ----- */
 
 .features {
@@ -205,11 +194,7 @@ form {
      flex-flow: row wrap;
 }
 
-.fontawesome-icon {
-
-}
-
-.features-item {
+.features .features-item {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -221,11 +206,10 @@ form {
 .reviews {
      display: flex;
      justify-content: center;
-     align-items: center;
      flex-flow: row wrap;
 }
 
-/* ----- MISSION ----- */
+/* ==================== ABOUT PAGE ==================== */
 
 .mission {
      display: flex;
@@ -234,8 +218,6 @@ form {
      flex-flow: row wrap;
 }
 
-/* ----- CONTACT SECTION ----- */
-
 .contact-section {
      display: flex;
      justify-content: center;
@@ -243,7 +225,7 @@ form {
      flex-flow: row wrap;
 }
 
-/* ----- FAQ ----- */
+/* ==================== FAQ PAGE ==================== */
 
 .faq {
      display: flex;
