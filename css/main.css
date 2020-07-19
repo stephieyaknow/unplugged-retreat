@@ -399,7 +399,7 @@ margin-bottom: 40px;
           display: none;
      }
 
-     /* ----- HERO AREA ----- */
+     /* ----- HERO AREA - NO TABLET STYLES ----- */
 
 
 
@@ -507,7 +507,55 @@ margin-bottom: 40px;
 
 @media only screen and (min-width: 1200px) {
 
+     .content-wrapper {
+          max-width: 960px;
+     }
 
+     /* ----- HERO AREA ----- */
+
+     .hero-area h1 {
+          width: 60%;
+     }
+
+     /* ----- ASIDE ----- */
+
+     aside .content-wrapper {
+          justify-content: space-around;
+     }
+
+     aside .content-wrapper .form-description,
+     aside .content-wrapper .form {
+          width: 30%;
+     }
+
+     /* -----FEATURES ----- */
+
+     .features h2 {
+          width: 90%;
+     }
+
+     .features article {
+          flex-basis: 33%;
+     }
+
+     /* ----- REVIEWS ----- */
+
+     .reviews article div {
+          width: 42%;
+     }
+
+     /* ===== ABOUT ===== */
+
+     .mission h2,
+     .contact-section .content-wrapper h2 {
+          width: 95%;
+     }
+
+     /* ===== FAQ ====== */
+
+     .faq h2 {
+          width: 100%;
+     }
 
 }
 
