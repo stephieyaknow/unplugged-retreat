@@ -94,6 +94,8 @@ html {
 }
 
 body {
+     background-color: #527158;
+     color: #e2e3ed;
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
      text-align: left;
@@ -111,19 +113,21 @@ a {
 
 h2 {
      font-family: 'Poppins', sans-serif;
-     font-size: 1.125em;
-     margin: 20px 0;
+     font-size: 1.875em;
+     font-weight: 500;
 }
 
 h3,
 h4 {
      font-family: 'Poppins', sans-serif;
-     font-size: .875em;
-     line-height: 1.285em;
+     font-size: 1.125em;
+     font-weight: 500;
+     margin: 20px 0;
 }
 
 p {
-
+     font-size: .875em;
+     line-height: 1.285em;
 }
 
 img {
@@ -146,6 +150,7 @@ address {
 /* ----- BASE HEADER & FOOTER STYLES ----- */
 
 header, footer {
+     background-color: #202322;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -157,6 +162,7 @@ header {
 }
 
 .header-divider {
+     background: #3a3a3a;
      width: 100%;
      height: 1px;
      margin: 10px 0 20px 0;
@@ -182,6 +188,10 @@ header nav ul {
      display: flex;
      justify-content: space-around;
      width: 100%;
+}
+
+header nav ul li {
+     font-size: 1.125em;
 }
 
 footer {
@@ -222,9 +232,17 @@ footer .copyright {
 /* ----- HERO AREA ----- */
 
 .hero-area {
+     background-color: #527158;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+}
+
+.hero-area h1 {
+     font-size: 2.25em;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     line-height: 1.2;
 }
 
 /* ----- ASIDE ----- */
@@ -234,6 +252,32 @@ aside {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+}
+
+aside .form {
+     margin-top: 30px;
+}
+
+input[type=text] {
+     box-sizing: border-box;
+     width: 100%;
+     color: #2a423a;
+     font-style: italic;
+     padding: 1em;
+}
+
+input[type=button] {
+     width: 100%;
+     padding: 20px 0;
+     margin-top: 20px;
+     background-color: #2a423a;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     border: none;
+     text-align: center;
+     text-transform: uppercase;
 }
 
 /* ----- FEATURES ----- */
@@ -267,6 +311,7 @@ aside {
 /* ----- REVIEWS ----- */
 
 .reviews {
+     background-color: #2a423a;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
