@@ -309,16 +309,21 @@ input[type=button] {
      margin-bottom: 60px;
 }
 
-.features article {
-     width: 63%;
-     padding: 30px 0;
-}
-
 .features .features-items {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+}
+
+.features article {
+     width: 63%;
+     padding: 30px 0;
+}
+
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
 }
 
 .features p {
@@ -573,6 +578,10 @@ input[type=button] {
           flex-basis: 50%;
      }
 
+     .features i {
+          margin-bottom: 30px;
+     }
+
      .features .features-item-description {
           width: 62%;
      }
@@ -693,6 +702,10 @@ input[type=button] {
           max-width: 960px;
      }
 
+     header .content-wrapper {
+          justify-content: space-between;
+     }
+
      header figure {
           width: 30%;
      }
@@ -741,6 +754,10 @@ input[type=button] {
 
      .features article {
           flex-basis: 33%;
+     }
+
+     .features i {
+          margin-bottom: 25px;
      }
 
      /* ----- REVIEWS ----- */
