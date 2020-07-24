@@ -641,6 +641,10 @@ input[type=button] {
           width: 45%;
      }
 
+     .map figure {
+          padding-bottom: 45%;
+     }
+
      .contact-section .content-wrapper h2 {
           width: 80%;
      }
@@ -687,6 +691,10 @@ input[type=button] {
 
      .content-wrapper {
           max-width: 960px;
+     }
+
+     header figure {
+          width: 30%;
      }
 
      h2 {
@@ -754,6 +762,10 @@ input[type=button] {
      .mission h2,
      .contact-section .content-wrapper h2 {
           width: 95%;
+     }
+
+     .map figure {
+          padding-bottom: 38%;
      }
 
      /* ===== FAQ ====== */
