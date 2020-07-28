@@ -218,6 +218,10 @@ footer .content-wrapper {
      margin: 50px 0;
 }
 
+/* footer h4 {
+     width: 100%;
+} */
+
 footer .contact {
      margin-bottom: 50px;
 }
@@ -226,6 +230,7 @@ footer .social-icons {
      display: flex;
      justify-content: space-around;
      align-items: center;
+     /* flex-wrap: wrap; */
 }
 
 footer .social-icons p {
