@@ -632,6 +632,10 @@ input[type=button] {
           margin-bottom: 0;
      }
 
+     footer .social {
+          width: 50%;
+     }
+
      footer h4 {
           font-size: 1.5em;
           margin-bottom: 40px;
@@ -797,6 +801,12 @@ input[type=button] {
 
      .faq h2 {
           width: 100%;
+     }
+
+     /* ===== FOOTER ===== */
+
+     footer .social {
+          width: 30%;
      }
 
 }
